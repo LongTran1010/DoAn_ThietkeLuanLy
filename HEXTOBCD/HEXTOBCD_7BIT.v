@@ -40,6 +40,6 @@ always @*
         bcdhex = {bcdhex[13:0], 1'b0};
     end    
     assign chuc  = bcdhex [14:11];
-    assign donvi = bcdhex [10:7]|bcdhex[4:1]|bcdhex[6:3];
+    assign donvi = bcdhex [10:7];
      
 endmodule
